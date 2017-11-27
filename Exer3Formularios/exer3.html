@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercicio 3 Formularios</title>
+</head>
+  <style>
+ .error {color: #FF0000;} 
+  
+  </style>
+<body>
+  <h4>
+    Crea un formulario HTML que recolla o nome do usuario. O programa
+HTML debe mostralo por pantalla. <br>Se o usuario non introduce nada, debe
+    mostrar por pantalla <span class="error">Erro ao introducir datos. Faltan datos"</span>.<br> (Pista:
+usamos a función que nos devolve cando unha variable está vacía ou comprobamos se a variable é igual a "nada"?)
+  </h4>
+  <form action="./exer3.php" method="POST" target="_self">
+    Introduzca un nombre de usuario
+    <input type="text" name="username" >
+    <input type="submit" value="Entrar">
+  </form>
+  
+</body>
+</html>
